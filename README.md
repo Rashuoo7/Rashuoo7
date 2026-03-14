@@ -80,7 +80,7 @@ and reporting dashboards. Private repo.
 
 ---
 
-#### 🎓 Simplified Academy / PCS Simplified *(Laravel · Livewire · MySQL)*
+#### 🎓 PCS Simplified *(Laravel · Livewire · MySQL)*
 Ed-tech platform serving **20,000+ students** with payment gateway integrations,
 role-based access control, and performance-optimised dashboards. Private repo.
 
@@ -96,12 +96,13 @@ Private repo.
 
 | Industry | Project |
 |----------|---------|
-| 🏥 Healthcare | DrsaHub — doctor listing & appointment platform |
-| 🎓 Ed-Tech | Simplified Academy, PCS Simplified, Tutor |
-| 💰 Fintech / SaaS | Credzee, Invoices SaaS |
-| ⚡ Energy | AP Energy — utility data & reporting |
-| 🛡️ Insurance | TCCI Portal, AI Insurance Chatbot |
-| 🛒 E-Commerce | Genius.TV (Commercetools + Contentful) |
+| 🏥 Healthcare | Nemicare: Electronic Medical Record System Software |
+| 🎓 Ed-Tech | Simplified Academy, PCS Simplified |
+| 🎓 Real-Estate | HomesInfra, Dreamdraft |
+| 💰 Fintech / SaaS | Invoices SaaS |
+| ⚡ Energy | APG Energy — utility data & reporting |
+| 🛡️ Insurance | TCCI Portal with AI Insurance Chatbot |
+| 🛒 E-Commerce | Genius.TV (Commercetools + Contentful) (German) |
 
 ---
 
