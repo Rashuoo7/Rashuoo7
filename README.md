@@ -86,20 +86,9 @@ role-based access control, and performance-optimised dashboards. Private repo.
 
 ---
 
-#### 🏥 DrsaHub *(Laravel · Blade)*
-Healthcare professional platform — appointment management, profile listings,
-and admin controls. Private repo.
-
----
-
-#### ⚡ AP Energy *(JavaScript · Laravel)*
+#### ⚡ APG Energy *(ReactJS . JavaScript · Laravel)*
 Energy sector web application — data management and reporting for utility operations.
 Private repo.
-
----
-
-#### 🛡️ Credzee *(Laravel · Blade)*
-Fintech application — secure data handling and financial workflow automation. Private repo.
 
 ---
 
