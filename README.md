@@ -84,11 +84,10 @@ accurate answers from a **100,000+ record** MySQL database — no SQL knowledge 
 | | |
 |---|---|
 | 🟩 **3,387** | Contributions in the last year |
-| 🔀 **60** | Pull Requests merged (on TCCI project alone) |
 | 💻 **6+** | Years of production development experience |
 | 🚀 **3+** | Simultaneous production client projects managed |
 | 🤖 **1** | AI product built & deployed end-to-end |
-| 🏢 **3** | Companies — real estate, ed-tech, web consultancy |
+| 🏢 **3** | Companies — real estate, ed-tech, fin-tech |
 
 ---
 
