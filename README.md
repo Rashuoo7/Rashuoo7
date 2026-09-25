@@ -71,6 +71,9 @@
 
 #### 🚌 iPronto: Event Travel & Shuttle Platform *(Laravel API · Angular 22 · AWS)*
 [ipronto.com](https://ipronto.com) · game-day shuttles and group outings in the US
+
+**240+ REST endpoints** · **1M+ database records** · **75+ role-gated admin APIs**
+
 - Built **admin.ipronto.com**, the operations console: **Angular 22** with standalone components, signals, strict TypeScript and Vitest, served from S3 + CloudFront. It covers bookings, fleet, drivers, manifests and live dashboards.
 - Added a phone-first **driver boarding app** with QR ticket scanning (native `BarcodeDetector` with a `jsqr` fallback). Drivers never see passenger contact details.
 - Designed the **role-gated admin API** in Laravel, with a vehicle-based capacity model and a test that fails the build if any admin route is left ungated.
