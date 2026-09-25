@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Senior Software Engineer · Full Stack & AI-Integrated Backend</b><br/>
-  Laravel · Python · LangChain · RAG · Node.js · AWS · Docker
+  Laravel · Angular · Vue · React · Node.js · Python · LangChain · AWS · GCP
 </p>
 
 <p align="center">
@@ -13,117 +13,108 @@
     <img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Status-Open%20To%20Work-brightgreen" />
-  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-orange" />
+  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-orange" />
 </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-- 🏗️ **6+ years** building production-grade Full Stack & Backend applications across **6+ industry domains**
-- 🤖 Built an **AI-powered Insurance Chatbot** — Python, LangChain, RAG, MySQL, Docker, AWS EC2
-- 💼 Currently at **Arihant Web Consultancy** — Laravel, Livewire, Commercetools, Contentful, CI/CD
-- 🌱 Actively expanding into **Generative AI · Vector Databases · LLM Systems**
-- 🏠 Based in **India** · Open to Remote & Product Company Opportunities
+- 🏗️ **7+ years** shipping production Full Stack & Backend systems across **8 industry domains**
+- ✈️ Recently shipped **iPronto**'s shuttle operations console (Angular 22) and complex booking APIs, plus a **website + admissions CRM** for Air World Academy
+- 🤖 Built two AI products: an **AI video generation platform** (NGFlix) and a **RAG insurance chatbot**
+- 💼 Senior Software Engineer at **Arihant Web Consultancy** since June 2024
+- 🏠 Based in **India** · Open to remote roles and product companies
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Backend & Full Stack**
+**Backend**
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP%208-777BB4?logo=php&logoColor=white)
+![Filament](https://img.shields.io/badge/Filament-FDAE4B?logoColor=black)
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logoColor=white)
-![AlpineJS](https://img.shields.io/badge/Alpine.js-8BC0D0?logo=alpine.js&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![REST API](https://img.shields.io/badge/REST-APIs-orange)
+
+**Frontend**
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 
 **AI & Python**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-Architecture-blueviolet)
-![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-8A2BE2)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
 
-**Cloud & DevOps**
+**Cloud, Data & DevOps**
 
-![AWS](https://img.shields.io/badge/AWS%20EC2%20%7C%20S3-232F3E?logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-EC2%20·%20S3%20·%20RDS%20·%20CloudFront-232F3E?logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-Cloud%20Run-4285F4?logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-
-**Databases & Platforms**
-
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Commercetools](https://img.shields.io/badge/Commercetools-0ABA83?logoColor=white)
-![Contentful](https://img.shields.io/badge/Contentful-2478CC?logo=contentful&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-APIs-orange)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
 
 ---
 
-### 🚀 Highlight Projects
+### 🚀 Recent Work
 
-#### 🤖 Insurance AI Chatbot *(Python · LangChain · RAG · MySQL · Docker · AWS EC2)*
-Non-technical insurance staff type plain English questions and get instant answers
-from a **100,000+ record** database — no SQL needed.
-Built with a full RAG pipeline, prompt engineering guardrails, and deployed on AWS EC2.
+#### 🚌 iPronto: Event Travel & Shuttle Platform *(Laravel API · Angular 22 · AWS)*
+[ipronto.com](https://ipronto.com) · game-day shuttles and group outings in the US
+- Built **admin.ipronto.com**, the operations console: **Angular 22** with standalone components, signals, strict TypeScript and Vitest, served from S3 + CloudFront. It covers bookings, fleet, drivers, manifests and live dashboards.
+- Added a phone-first **driver boarding app** with QR ticket scanning (native `BarcodeDetector` with a `jsqr` fallback). Drivers never see passenger contact details.
+- Designed the **role-gated admin API** in Laravel, with a vehicle-based capacity model and a test that fails the build if any admin route is left ungated.
+- Built the full **QR ticket → check-in** flow and redesigned 26 transactional emails.
+- Performance work on a shared RDS instance: one targeted index took dashboard queries on a 500K-row table from **88 ms to 20 ms**. Also moved legacy SQL to bound parameters.
+- Shipped features and fixes in the customer Angular app (SSR, NgRx, PWA).
 
----
+#### ✈️ Air World Academy: Website + Admissions CRM
+- **[airworldacademy.in](https://airworldacademy.in)**: marketing site built with **Vue 3 · Vite · Tailwind**. It replaced the old WordPress site and sends every enquiry straight to the CRM.
+- **[crm.airworldacademy.in](https://crm.airworldacademy.in)**: admissions CRM built from scratch on **Laravel 13 · Filament 5 · PHP 8.4 · MySQL**
+  - Lead intake from Meta, Google, Justdial, WhatsApp, the website and walk-ins, through webhooks
+  - Duplicate detection on normalised phone numbers: an indexed exact match that warns without blocking the save
+  - Installable on phones, with web-push notifications · **223 automated tests**
 
-#### 🧾 Invoices SaaS *(Laravel · PHP · MySQL)*
-A full SaaS invoicing platform — multi-tenant architecture, automated billing workflows,
-and reporting dashboards. Private repo.
+#### 🎬 NGFlix: AI Video Generation *(Node.js · React · FFmpeg · GCP Cloud Run)*
+Generates multi-scene videos from text prompts. Scenes are stitched and audio merged on the server with FFmpeg, and long renders run through a job queue on Cloud Run.
 
----
-
-#### 🎓 PCS Simplified *(Laravel · Livewire · MySQL)*
-Ed-tech platform serving **20,000+ students** with payment gateway integrations,
-role-based access control, and performance-optimised dashboards. Private repo.
-
----
-
-#### ⚡ APG Energy *(ReactJS . JavaScript · Laravel)*
-Energy sector web application — data management and reporting for utility operations.
-Private repo.
+#### 🤖 Insurance AI Chatbot *(Python · LangChain · RAG · Docker · AWS EC2)*
+Turns plain-English questions into SQL over a **100,000+ record** database, with ~90% accuracy on domain questions. Guardrails block destructive queries.
 
 ---
 
 ### 🏭 Industries I've Built For
 
-| Industry | Project |
-|----------|---------|
-| 🏥 Healthcare | Nemicare: Electronic Medical Record System Software |
-| 🎓 Ed-Tech | Simplified Academy, PCS Simplified |
-| 🎓 Real-Estate | HomesInfra, Dreamdraft |
-| 💰 Fintech / SaaS | Invoices SaaS |
-| ⚡ Energy | APG Energy — utility data & reporting |
-| 🛡️ Insurance | TCCI Portal with AI Insurance Chatbot |
-| 🛒 E-Commerce | Genius.TV (Commercetools + Contentful) (German) |
-
----
-
-### 📈 By the Numbers
-
-| | |
-|---|---|
-| 🟩 **3,387** | Contributions in the last year |
-| 📦 **26** | Total repositories (public + private) |
-| 💻 **6+** | Years of production development experience |
-| 🏭 **6+** | Industry domains delivered in |
-| 🤖 **1** | AI product built & deployed end-to-end |
+| Industry | Projects |
+|----------|----------|
+| 🚌 Travel & Events | iPronto: shuttle ops console, booking API |
+| ✈️ Aviation Education | Air World Academy: website + admissions CRM |
+| 🎬 AI / Media | NGFlix: AI video generation |
+| 🛡️ Insurance | TCCI Portal · AI Insurance Chatbot |
+| 🏥 Healthcare | Nemicare: electronic medical records (EMR) |
+| 🎓 Ed-Tech | PCS Simplified (20,000+ students) · Simplified Academy |
+| 💰 Fintech / SaaS | Invoices SaaS · Credzee |
+| ⚡ Energy | APG Energy: utility data & reporting |
+| 🛒 E-Commerce | Genius.TV: German headless commerce (Commercetools + Contentful) |
+| 🏠 Real Estate | HomesInfra · Dreamdraft |
 
 ---
 
 ### 📂 A Note on My Repositories
 
-The majority of my work lives in **private client and company repositories.**
-This includes production Laravel APIs, AWS infrastructure, Commercetools integrations,
-Node.js services, Angular frontends, and CI/CD pipelines built at Arihant Web Consultancy
-and Simplified Education. The contribution graph reflects **real, daily production commits.** 🟩
+Most of my work lives in **private client and company repositories**: production Laravel APIs,
+Angular and Vue frontends, AWS/GCP infrastructure and CI/CD pipelines. The contribution graph
+reflects **real, daily production commits.** 🟩
 
 ---
 
@@ -139,6 +130,5 @@ and Simplified Education. The contribution graph reflects **real, daily producti
   </a>
 </p>
 
-- 🎯 Targeting **Senior Backend / AI Engineer** roles · **10 LPA+**
-- 💬 Happy to discuss Laravel architecture, AI integrations, AWS deployments, or SaaS product design
-- 📄 **Resume available on request**
+- 🎯 Looking for **Senior Full Stack / Backend / AI Engineer** roles
+- 💬 Happy to talk Laravel architecture, modern Angular, AI integrations or AWS/GCP deployments
