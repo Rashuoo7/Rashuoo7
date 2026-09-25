@@ -75,7 +75,7 @@
 - Added a phone-first **driver boarding app** with QR ticket scanning (native `BarcodeDetector` with a `jsqr` fallback). Drivers never see passenger contact details.
 - Designed the **role-gated admin API** in Laravel, with a vehicle-based capacity model and a test that fails the build if any admin route is left ungated.
 - Built the full **QR ticket → check-in** flow and redesigned 26 transactional emails.
-- Performance work on a shared RDS instance: one targeted index took dashboard queries on a 500K-row table from **88 ms to 20 ms**. Also moved legacy SQL to bound parameters.
+- Performance work on a shared RDS instance: one targeted index made dashboard queries **4× faster (88 ms → 20 ms)**. Also moved legacy SQL to bound parameters.
 - Shipped features and fixes in the customer Angular app (SSR, NgRx, PWA).
 
 #### ✈️ Air World Academy: Website + Admissions CRM
