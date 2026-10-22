@@ -1,137 +1,35 @@
-<h1 align="center">Hey, I'm Rashtradeep Tripathi 👋</h1>
+# Rashtradeep Tripathi
 
-<p align="center">
-  <b>Senior Software Engineer · Full Stack & AI-Integrated Backend</b><br/>
-  Laravel · Angular · Vue · React · Node.js · Python · LangChain · AWS · GCP
-</p>
+**Senior Full Stack Engineer** · TypeScript (Angular, React, Vue) · Node.js and Laravel · PostgreSQL · AWS and GCP
 
-<p align="center">
-  <a href="https://linkedin.com/in/rashtradeep-tripathi">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:rashtradeeptripathi@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-Open%20To%20Work-brightgreen" />
-  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-orange" />
-</p>
+I build web products end to end: data model and API design, the frontend, deployment, and the performance work after launch. Eight years, for clients in the US, Europe and India across travel, insurance, ed-tech, healthcare and fintech.
 
----
+## Selected work
 
-### 👨‍💻 About Me
+**FinTracker** · AI personal-finance assistant · live at [fintrackerai.com](https://fintrackerai.com)<br>
+React 19, TypeScript, Express, MySQL, Groq with Gemini and OpenRouter fallbacks.<br>
+Chat-first expense tracking through LLM tool calling, quota-aware routing across API keys and providers, an eval harness of 30 behaviour cases and about 90 unit and database tests. Installable PWA with push reminders and passwordless email login.
 
-- 🏗️ **7+ years** shipping production Full Stack & Backend systems across **8 industry domains**
-- ✈️ Recently shipped **iPronto**'s shuttle operations console (Angular 22) and complex booking APIs, plus a **website + admissions CRM** for Air World Academy
-- 🤖 Built two AI products: an **AI video generation platform** (NGFlix) and a **RAG insurance chatbot**
-- 💼 Senior Software Engineer at **Arihant Web Consultancy** since June 2024
-- 🏠 Based in **India** · Open to remote roles and product companies
+**iPronto** · event shuttle and tour booking, US · Angular 22, Laravel, PostgreSQL/PostGIS, AWS
+- Profiled production PostgreSQL and rewrote the hottest queries: homepage search 9.8 s → 0.63 s; "near me" counts 2.9 s → 18 ms.
+- Built the new operations console in Angular 22 (signals, strict TypeScript, OpenAPI-typed clients) with about 1,000 Vitest specs.
+- Shipped QR ticketing with a phone-first driver check-in screen.
 
----
+**NGFlix** · AI video generation · Node.js (Express 5), React 19, FFmpeg, GCP Cloud Run<br>
+Text-to-video through the Gemini API, server-side multi-clip stitching, five-role access control and plan-based upload quotas.
 
-### 🛠️ Tech Stack
+**AirWorld Academy** · admissions CRM and website · Laravel 13, Filament 5, Vue 3<br>
+Webhook lead capture from Meta, Justdial and the website with HMAC verification, duplicate detection, and 271 automated tests.
 
-**Backend**
+## Stack
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP%208-777BB4?logo=php&logoColor=white)
-![Filament](https://img.shields.io/badge/Filament-FDAE4B?logoColor=black)
-![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-APIs-orange)
+TypeScript · JavaScript · PHP · Python · SQL<br>
+Angular · React · Vue · Node.js (Express) · Laravel · Tailwind CSS<br>
+PostgreSQL (PostGIS) · MySQL · AWS · GCP · Docker · GitHub Actions<br>
+Vitest · Playwright · PHPUnit · LLM tool calling · RAG · evals
 
-**Frontend**
+## About the repositories
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vue.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+Most of my work lives in private client and company organisations: 1,300+ merged pull requests.
 
-**AI & Python**
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Architecture-blueviolet)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
-
-**Cloud, Data & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-EC2%20·%20S3%20·%20RDS%20·%20CloudFront-232F3E?logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-Cloud%20Run-4285F4?logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
-
----
-
-### 🚀 Recent Work
-
-#### 🚌 iPronto: Event Travel & Shuttle Platform *(Laravel API · Angular 22 · AWS)*
-[ipronto.com](https://ipronto.com) · game-day shuttles and group outings in the US
-
-**240+ REST endpoints** · **1M+ database records** · **75+ role-gated admin APIs**
-
-- Built **admin.ipronto.com**, the operations console: **Angular 22** with standalone components, signals, strict TypeScript and Vitest, served from S3 + CloudFront. It covers bookings, fleet, drivers, manifests and live dashboards.
-- Added a phone-first **driver boarding app** with QR ticket scanning (native `BarcodeDetector` with a `jsqr` fallback). Drivers never see passenger contact details.
-- Designed the **role-gated admin API** in Laravel, with a vehicle-based capacity model and a test that fails the build if any admin route is left ungated.
-- Built the full **QR ticket → check-in** flow and redesigned 26 transactional emails.
-- Performance work on a shared RDS instance: one targeted index made dashboard queries **4× faster (88 ms → 20 ms)**. Also moved legacy SQL to bound parameters.
-- Shipped features and fixes in the customer Angular app (SSR, NgRx, PWA).
-
-#### ✈️ Air World Academy: Website + Admissions CRM
-- **[airworldacademy.in](https://airworldacademy.in)**: marketing site built with **Vue 3 · Vite · Tailwind**. It replaced the old WordPress site and sends every enquiry straight to the CRM.
-- **[crm.airworldacademy.in](https://crm.airworldacademy.in)**: admissions CRM built from scratch on **Laravel 13 · Filament 5 · PHP 8.4 · MySQL**
-  - Lead intake from Meta, Google, Justdial, WhatsApp, the website and walk-ins, through webhooks
-  - Duplicate detection on normalised phone numbers: an indexed exact match that warns without blocking the save
-  - Installable on phones, with web-push notifications · **223 automated tests**
-
-#### 🎬 NGFlix: AI Video Generation *(Node.js · React · FFmpeg · GCP Cloud Run)*
-Generates multi-scene videos from text prompts. Scenes are stitched and audio merged on the server with FFmpeg, and long renders run through a job queue on Cloud Run.
-
-#### 🤖 Insurance AI Chatbot *(Python · LangChain · RAG · Docker · AWS EC2)*
-Turns plain-English questions into SQL over a **100,000+ record** database, with ~90% accuracy on domain questions. Guardrails block destructive queries.
-
----
-
-### 🏭 Industries I've Built For
-
-| Industry | Projects |
-|----------|----------|
-| 🚌 Travel & Events | iPronto: shuttle ops console, booking API |
-| ✈️ Aviation Education | Air World Academy: website + admissions CRM |
-| 🎬 AI / Media | NGFlix: AI video generation |
-| 🛡️ Insurance | TCCI Portal · AI Insurance Chatbot |
-| 🏥 Healthcare | Nemicare: electronic medical records (EMR) |
-| 🎓 Ed-Tech | PCS Simplified (20,000+ students) · Simplified Academy |
-| 💰 Fintech / SaaS | Invoices SaaS · Credzee |
-| ⚡ Energy | APG Energy: utility data & reporting |
-| 🛒 E-Commerce | Genius.TV: German headless commerce (Commercetools + Contentful) |
-| 🏠 Real Estate | HomesInfra · Dreamdraft |
-
----
-
-### 📂 A Note on My Repositories
-
-Most of my work lives in **private client and company repositories**: production Laravel APIs,
-Angular and Vue frontends, AWS/GCP infrastructure and CI/CD pipelines. The contribution graph
-reflects **real, daily production commits.** 🟩
-
----
-
-### 📫 Let's Connect
-
-<p>
-  <a href="https://linkedin.com/in/rashtradeep-tripathi">
-    <img src="https://img.shields.io/badge/LinkedIn-rashtradeep--tripathi-blue?logo=linkedin" />
-  </a>
-  &nbsp;
-  <a href="mailto:rashtradeeptripathi@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-rashtradeeptripathi-red?logo=gmail" />
-  </a>
-</p>
-
-- 🎯 Looking for **Senior Full Stack / Backend / AI Engineer** roles
-- 💬 Happy to talk Laravel architecture, modern Angular, AI integrations or AWS/GCP deployments
+[LinkedIn](https://www.linkedin.com/in/rashtradeep-tripathi/) · [Email](mailto:rashtradeeptripathi@gmail.com)
