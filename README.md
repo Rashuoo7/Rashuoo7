@@ -4,7 +4,7 @@
 
 I build web products end to end: data model and API design, the frontend, deployment, and the performance work after launch. Eight years, for clients in the US, Europe and India across travel, insurance, ed-tech, healthcare and fintech.
 
-## Selected work
+## Featured projects
 
 **FinTracker** · AI personal-finance assistant · live at [fintrackerai.com](https://fintrackerai.com)<br>
 React 19, TypeScript, Express, MySQL, Groq with Gemini and OpenRouter fallbacks.<br>
