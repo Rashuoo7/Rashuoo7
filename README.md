@@ -8,7 +8,7 @@ I build web products end to end: data model and API design, the frontend, deploy
 
 **FinTracker** · AI personal-finance assistant · live at [fintrackerai.com](https://fintrackerai.com)<br>
 React 19, TypeScript, Express, MySQL, Groq with Gemini and OpenRouter fallbacks.<br>
-Chat-first expense tracking through LLM tool calling, quota-aware routing across API keys and providers, an eval harness of 30 behaviour cases and about 90 unit and database tests. Installable PWA with push reminders and passwordless email login.
+Chat-first expense tracking through LLM tool calling, quota-aware routing across Groq, Gemini and OpenRouter, an eval harness of 30 behaviour cases and about 90 unit and database tests. Installable PWA with push reminders and passwordless email login.
 
 **iPronto** · event shuttle and tour booking, US · Angular 22, Laravel, PostgreSQL/PostGIS, AWS
 - Profiled production PostgreSQL and rewrote the hottest queries: homepage search 9.8 s → 0.63 s; "near me" counts 2.9 s → 18 ms.
